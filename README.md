@@ -1,4 +1,4 @@
-# Technical Test - React Developer
+# Technical Test - Node.js Developer
 
 Suggested time limit: 2 hours
 
