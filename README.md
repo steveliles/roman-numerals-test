@@ -4,6 +4,12 @@ Suggested time limit: 2 hours
 
 It is not compulsory to complete all tasks - it is better to have a working solution to task 1 than incorrect solutions to all tasks.
 
+#### Submission
+
+* Create a public github repo 
+* push your code to it
+* tell us where to find it and what version of node you've used
+
 Have fun ...
 
 ## Part I
