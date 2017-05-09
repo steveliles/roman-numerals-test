@@ -1,6 +1,6 @@
 # Technical Test - React Developer
 
-Suggested duration: 2 hours
+Suggested time limit: 2 hours
 
 It is not compulsory to complete all tasks - it is better to have a working solution to task 1 than incorrect solutions to all tasks.
 
