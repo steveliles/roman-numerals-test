@@ -1,6 +1,12 @@
 # Technical Test - React Developer
 
-## Test Part I
+Suggested duration: 2 hours
+
+It is not compulsory to complete all tasks - it is better to have a working solution to task 1 than incorrect solutions to all tasks.
+
+Have fun ...
+
+## Part I
 
 The numeric system represented by Roman numerals originated in ancient Rome and remained the usual way of writing numbers throughout Europe well into the Late Middle Ages. Numbers in this system are represented by combinations of letters from the Latin alphabet. Roman numerals, as used today, are based on seven symbols:
 
@@ -14,13 +20,17 @@ I, II, III, IIII, V, VI, VII, VIII, VIIII, X
 
 Some examples of larger numbers include:
 
-12   as XII
-25   as XXV
-140  as CXXXX
-1954 as MDCCCCLIIII
-1990 as MDCCCCLXXXX
-2014 as MMXIIII
-2017 as MMXVII
+| Positional Arabic | Roman  |
+| ----------------- | ------ |
+| 12   | XII |
+| 25   | XXV |
+| 140  | CXXXX |
+| 1954 | MDCCCCLIIII |
+| 1990 | MDCCCCLXXXX |
+| 2014 | MMXIIII |
+| 2017 | MMXVII |
+
+### Task 1
 
 Using node.js, Create a javascript function `toSimpleRoman` that can convert from our modern numbering system (positional Arabic numerals) to Roman numerals, e.g.
 
@@ -38,7 +48,7 @@ Using node.js, Create a javascript function `toSimpleRoman` that can convert fro
 > CXXXX
 ```
 
-## Test Part II
+## Part II
 
 In a few specific cases, to avoid confusing and hard to read numbers with four characters repeated in succession (such as IIII or XXXX), subtractive notation is used, as in this table:
 
@@ -62,6 +72,8 @@ Some examples of the modern use of Roman numerals include:
 | 2014              | MMXIV  |
 | 2017              | MMXVII |
 
+### Task 2
+
 Using node.js, Create a javascript function `toCompactRoman` that converts from our modern numbering system to Roman numerals, using the more compact subtractive notation as described earlier in this section, e.g.:
 
 ```
@@ -76,4 +88,16 @@ Using node.js, Create a javascript function `toCompactRoman` that converts from 
 >
 > toCompactRoman(140)
 > CXL
+```
+
+### Task 3
+
+Using node.js, create a javascript function `toArabic` that converts from roman numerals to our modern (positional arabic) numbering system, e.g.
+
+```
+> toArabic('XII')
+> 12
+>
+> toArabic('MCMXC')
+> 1990
 ```
